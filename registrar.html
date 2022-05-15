@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-registrar.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0" nonce="EtRyZxBN"></script>
+    <main>
+        <form class="formulario sombra">
+            <h2>Registrar Cuenta</h2>
+            <div class="campo">
+                <label>Nombre</label>
+                <input type="text" name="txNombre" placeholder="Ingrese su nombre">
+            </div>
+        
+            <div class="campo">
+                <label>Usuario</label>
+                <input type="text" name="txApellidos" placeholder="Ingrese sus apellidos">
+            </div>
+        
+            <div class="campo">
+                <label>Correo</label>
+                <input type="email" name="txCorreo" placeholder="Ingrese su correo">
+            </div>
+        
+            <div class="campo">
+                <label>Contraseña</label>
+                <input type="text" name="txContrasegna" placeholder="Ingrese su contraseña">
+            </div>
+
+            <div class="campo">
+                <label>Confirmar contraseña</label>
+                <input type="text" name="txContrasegna" placeholder="Ingrese nuevamente su contraseña">
+            </div>
+
+            <input class="boton" type="submit" name="btEnviar" value="Enviar">
+                  
+            <p style="text-align: center; margin-top: 15px; color: #fffffa;">O</p>
+
+             
+            <div class="fb-login-button" data-size="large" data-button-type="login_with"></div>
+
+        </form>
+    <main>
+</body>
+</html>

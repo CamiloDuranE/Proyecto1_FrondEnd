@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;500&display=swap');
+
+:root {
+    --blanco: #ffffff;
+    --primario: #fffffa;
+    --secundario: #3c3c3c;
+    --gris: #1f1f1f;
+    --input: #000103;
+    --boton: #be3803;
+    --hover: #482417;
+    --hover-a: #FF312E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body{
+    background-color: var(--secundario)
+}
+
+main h2{
+    color: var(--primario);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.formulario{
+    background-color: var(--gris);
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    padding: 32px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;  
+}
+
+.campo{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.campo label{
+    color: var(--primario);
+    font-weight: 500;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-color: var(--input);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;   
+}
+
+.boton{
+    background-color: var(--boton);
+    color: var(--blanco);
+    padding: 8px 100px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-weight: 550;
+    text-decoration: none;
+    font-size: 18px;
+    border:none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: var(--hover);
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    color: var(--primario);
+    padding: 5px;
+}
+
+a:hover {
+    color: var(--hover-a);
+}
+
+
